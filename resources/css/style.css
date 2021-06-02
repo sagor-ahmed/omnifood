@@ -539,16 +539,13 @@ cite {
     margin: 0 auto;
 }
 
-input[type="name"] ,
-input[type="email"] ,
-select,
-textarea{
+input[type="name"], input[type="email"], select, textarea {
     width: 100%;
     border: 1px solid #ccc;
     padding: 7px;
     border-radius: 3px;
+    outline: none;
 }
-
 
 
 /* ----------------------------------------------- */
@@ -658,11 +655,3 @@ footer p {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
-
-
-
-
-
-
-
-
